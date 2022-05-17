@@ -55,9 +55,9 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                group = 'com.astilla.customtoast'
-                version = '0.0.1'
+                groupId = 'com.astilla.customtoast'
                 artifactId = 'custom_toast'
+                version = '0.0.1'
             }
         }
     }
